@@ -1,0 +1,4 @@
+If you want to create the word vectors by yourself, then you can do so by running the script 'wordVectorGenerator.py'. Otherwise, if you want to use the generated file only, then use the following Google Drive link. 
+<https://drive.google.com/file/d/1bxYEdQBFBY56GqARb_xEobfbVS1ZXaEZ/view?usp=sharing>
+
+On the above link you will get a zip file of the generated word vectors.

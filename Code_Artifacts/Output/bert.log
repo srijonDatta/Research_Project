@@ -1,0 +1,50 @@
+PyTerrier 0.8.1 has loaded Terrier 5.7 (built by craigm on 2022-11-10 18:30)
+No etc/terrier.properties, using terrier.default.properties for bootstrap configuration.
+2023-08-14 12:25:16.114513: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-08-14 12:25:16.314610: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/software/slurm/latest/lib:
+2023-08-14 12:25:16.314692: I tensorflow/compiler/xla/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2023-08-14 12:25:17.762909: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/software/slurm/latest/lib:
+2023-08-14 12:25:17.763380: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/software/slurm/latest/lib:
+2023-08-14 12:25:17.763399: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/home/people/19208875/anaconda3/envs/qpp/lib/python3.7/site-packages/torch/nn/modules/rnn.py:65: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  "num_layers={}".format(dropout, num_layers))
+25000/25000 [==============================] - 2100s 28000ms/step - loss: 0.3412 - accuracy: 0.8470
+25000/25000 [==============================] - 2120s 28000ms/step - loss: 0.3387 - accuracy: 0.8437
+25000/25000 [==============================] - 2100s 28000ms/step - loss: 0.3319 - accuracy: 0.8449
+25000/25000 [==============================] - 2090s 28000ms/step - loss: 0.3269 - accuracy: 0.8442
+25000/25000 [==============================] - 2130s 28000ms/step - loss: 0.3231 - accuracy: 0.8457
+25000/25000 [==============================] - 2090s 28000ms/step - loss: 0.3199 - accuracy: 0.8476
+25000/25000 [==============================] - 2100s 28000ms/step - loss: 0.3163 - accuracy: 0.8490
+25000/25000 [==============================] - 2100s 28000ms/step - loss: 0.3079 - accuracy: 0.8503
+25000/25000 [==============================] - 2100s 28000ms/step - loss: 0.3017 - accuracy: 0.8517
+25000/25000 [==============================] - 2110s 28000ms/step - loss: 0.2945 - accuracy: 0.8521
+25000/25000 [==============================] - 2140s 28000ms/step - loss: 0.2911 - accuracy: 0.8534
+25000/25000 [==============================] - 2080s 28000ms/step - loss: 0.2883 - accuracy: 0.8567
+25000/25000 [==============================] - 2100s 28000ms/step - loss: 0.2841 - accuracy: 0.8598
+25000/25000 [==============================] - 2130s 28000ms/step - loss: 0.2769 - accuracy: 0.8610
+25000/25000 [==============================] - 2120s 28000ms/step - loss: 0.2649 - accuracy: 0.8642
+25000/25000 [==============================] - 2110s 28000ms/step - loss: 0.2584 - accuracy: 0.8789
+25000/25000 [==============================] - 2100s 28000ms/step - loss: 0.2531 - accuracy: 0.8831
+25000/25000 [==============================] - 2100s 28000ms/step - loss: 0.2497 - accuracy: 0.8852
+25000/25000 [==============================] - 2110s 28000ms/step - loss: 0.2478 - accuracy: 0.8921
+25000/25000 [==============================] - 2110s 28000ms/step - loss: 0.2441 - accuracy: 0.8956
+25000/25000 [==============================] - 2140s 28000ms/step - loss: 0.2399 - accuracy: 0.9034
+25000/25000 [==============================] - 2140s 28000ms/step - loss: 0.2278 - accuracy: 0.9078
+25000/25000 [==============================] - 2120s 28000ms/step - loss: 0.2256 - accuracy: 0.9111
+25000/25000 [==============================] - 2130s 28000ms/step - loss: 0.2189 - accuracy: 0.9165
+25000/25000 [==============================] - 2130s 28000ms/step - loss: 0.2104 - accuracy: 0.9234
+25000/25000 [==============================] - 2100s 28000ms/step - loss: 0.2089 - accuracy: 0.9297
+25000/25000 [==============================] - 2100s 28000ms/step - loss: 0.2067 - accuracy: 0.9400
+25000/25000 [==============================] - 2090s 28000ms/step - loss: 0.2041 - accuracy: 0.9422
+25000/25000 [==============================] - 2090s 28000ms/step - loss: 0.2041 - accuracy: 0.9422
+25000/25000 [==============================] - 2100s 28000ms/step - loss: 0.2041 - accuracy: 0.9422
+
+2023-08-14 12:25:16.314692: I tensorflow/compiler/xla/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2023-08-14 12:25:17.762909: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/software/slurm/latest/lib:
+2023-08-14 12:25:17.763380: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/software/slurm/latest/lib:
+Total_epochs = 30
+Output file written in /bert.pred
