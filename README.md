@@ -12,4 +12,15 @@
 
 2. **Code Files -** To access all the code files, please download the 'Code_Artifacts.zip'. To get a high-level view of the code files along with the codes, please follow the step-by-step guidence, documented on 'MSc_Research_Project_Configuration_Manual_21225265'. A full list of pre-requisites has been given in the main report file (page 9-10).
 
+3. *Model-Architectures* --------
+
+3.1. CNN Architecture: 
+![CNN Architecture](https://github.com/srijonDatta/Research_Project/blob/main/Model_Architectures/CNN_Architecture.png)
+
+3.1. BERT Architecture: 
+![BERT Architecture](https://github.com/srijonDatta/Research_Project/blob/main/Model_Architectures/BERT_Architecture.png)
+
+
+## NOTE: 
 <b>MSc_Research_Project_Report_21225265.pdf is the complete documentation of the entire reseach work and to get a clear idea about this investigation, I would like to request all the current viewer to go through this report file first.</b>  
+
