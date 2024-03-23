@@ -22,5 +22,5 @@
 
 
 ## NOTE: 
-<b>MSc_Research_Project_Report_21225265.pdf is the complete documentation of the entire reseach work and to get a clear idea about this investigation, I would like to request all the current viewer to go through this report file first.</b>  
+<b>[MSc_Research_Project_Report_21225265.pdf](https://github.com/srijonDatta/Research_Project/blob/main/MSc_Research_Project_Report_21225265.pdf) is the complete documentation of the entire reseach work and to get a clear idea about this investigation, I would like to request all the current viewer to go through this report file first.</b>  
 
