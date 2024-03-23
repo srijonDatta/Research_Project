@@ -1,4 +1,4 @@
-### Research_Project
+# Research_Project
 
 **Extraction of the Triggering Causes of a Query Event** - The prime objective of this work is to investigate that <b>'given a causal query (rather any effect mentioned in the query), how well a supervised retrieval set up can enumerate the list of plausible triggering causes embedded in the documents?'</b> 
 
